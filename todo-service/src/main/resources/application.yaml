@@ -1,0 +1,10 @@
+spring:
+  datasource:
+    name: todos
+    generate-unique-name: false
+    username: sa
+    password: pass
+    driver-class-name: org.h2.Driver
+  h2:
+    console:
+      enabled: true

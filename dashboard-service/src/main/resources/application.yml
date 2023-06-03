@@ -1,0 +1,12 @@
+server:
+  port: 8091
+spring:
+  datasource:
+    name: dashboard
+    generate-unique-name: false
+    username: sa
+    password: pass
+    driver-class-name: org.h2.Driver
+  h2:
+    console:
+      enabled: true
